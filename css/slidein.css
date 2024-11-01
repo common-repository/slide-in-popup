@@ -1,0 +1,40 @@
+div#slidein_wrap {
+position:fixed;
+bottom:0;
+z-index:99;
+overflow:hidden;
+margin:0;
+padding:0;
+}
+div#slidein_slider {
+overflow:hidden;
+position:relative;
+margin:0;
+padding:0;
+}
+div.slidein_clear {
+clear:both;
+margin:0;
+padding:0;
+}
+a.slidein_close {
+display:block;
+width:14px;
+height:14px;
+float:right;
+margin-right:20px;
+background-image:url(../images/button.gif);
+background-position:0 -14px;
+}
+a.slidein_toggle {
+display:block;
+width:14px;
+height:14px;
+float:right;
+margin-right:20px;
+background-image:url(../images/button.gif);
+background-position:0 -14px;
+}
+a.closed {
+background-position:0 0px;
+}
